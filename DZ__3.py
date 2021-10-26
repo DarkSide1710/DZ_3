@@ -68,11 +68,11 @@ class GeometricCalculator():
         return d
 
 
-''' Class for calculating the area and perimeter of flat figures. '''
+''' Класс для расчета площади и периметра плоских фигур. '''
 
 class FlatFigures(GeometricCalculator):
 
-    ''' method for calculating the area '''
+    ''' метод расчета площади '''
 
     def area(self):
         if self.name == 'квадрат':
